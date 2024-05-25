@@ -1,0 +1,19 @@
+/* Profile Pic Image */
+.profile-pic{
+    float: right;
+    padding: 20px;
+}
+/* About page images */
+.hobby{
+    height: 300px;
+}
+
+/* Project Images in Portfolio page */
+.project{
+    height: 300px;
+}
+
+/* Footer */
+footer .media {
+    height: 40px;
+}
