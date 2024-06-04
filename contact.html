@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Contact Form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,20 +24,20 @@
     </header>
     <!-- Link Js File -->
     <script src="javascript.js"></script>
-    <!-- main section of the page -->
+    <!-- Main Content of the Page -->
     <main>
-        <div>  
-            <img src="https://media.licdn.com/dms/image/D5603AQEpva4uR2WZoA/profile-displayphoto-shrink_200_200/0/1706403627670?e=1721865600&v=beta&t=JykQTLPa_InBnUVYZ2rPLgN6YhysU2VLJu1IBnChH8I" class="profile-pic" alt="linkedin profile">         
-            <!-- Description Title -->
-            <h1>Developer, Problem-Solver, Student</h1>
-            <!-- Intro Description, Mission Statement -->
-        
-            <p class="intro">Interested in advancing technical and problem-solving skills, aspiring to become a better programmer through learning from professionals.</p>
-
-            <h2 class="quote">
-                "The mark of a mature programmer is willingness to throw out code you spent time on when you realize it’s pointless."<br> - Bram Cohen <em>(Founder of Bit Torrent)</em>
-            </h2>
-        </div> 
+        <div class="user-form">
+            <!-- User Forms -->
+            <form id="form" action="success.html">
+                <label for="name">Name</label> <br>
+                <input type="text" placeholder="Enter Name" name="name" id="name">
+                <label for="email">Email</label> <br>
+                <input type="text" placeholder="Enter Email" name="email" id="email"> <br>
+                <label for="message">Message</label><br>
+                <textarea name="freeform" id="freeform"></textarea>
+                <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
     </main>
 
     <!-- footer section containing links -->
@@ -49,6 +49,7 @@
             <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" class="media" alt="github image">
         </a>
     </footer>
+
 
 </body>
 </html>
