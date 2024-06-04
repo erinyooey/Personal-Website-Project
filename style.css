@@ -28,7 +28,9 @@ main{
     padding: 10px 10px 0px 10px;
     font-size: 30px;
     font-family: Georgia;
+    color: blue !important;
 }
+
 
 .navbar{
     box-shadow: 0 0 10px -2px black;
@@ -42,21 +44,24 @@ main{
     justify-content: space-between;
     background-color:rgb(171, 171, 171);
     margin-top: -7px;
+    z-index: 2;
 }
 
-nav .links{
+.navbar .links{
     margin: 0 5px;
     font-size: large;
-}
+} 
 
-.link{
+.navbar .link{
     padding: 5px;
+    
 }
 
 /* Profile Pic Image */
 .profile-pic{
     float: right;
     padding: 20px;
+    
 }
 
 .quote{
@@ -131,4 +136,16 @@ footer a{
 
 footer .media {
     max-height: 100%;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    .proj-section{
+        float: right;
+    }
+
+    #net{
+        max-width: 100%;
+        margin: 0 auto;
+    }
 }
